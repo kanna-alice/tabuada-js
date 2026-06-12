@@ -2,7 +2,7 @@ function tabuada(){
     let num = document.getElementById("num").value
     let res = document.getElementById("res")
     res.innerHTML = ""
-    if (num == 0){
+    if (num == ""){
         alert("Digite um número!")
     return
     }
