@@ -26,10 +26,7 @@ footer {
     padding: 10px;
 }
 
-div {
-    padding: 15px;
-    align-items: center;
-}
+
 
 button {
     background: rgb(0, 110, 255);
@@ -58,6 +55,7 @@ label{
 @media (max-width: 600px) {
     section {
         width: 90%;
+        gap: 10px;
     }
     footer {
         clear: both;
@@ -67,9 +65,17 @@ label{
         width: 100%;
         margin-top: 10px;
     }
+@media (max-width: 480px) {
+    #secao label {
+        display: flex;
+        flex-direction: column; 
+        gap: 5px;              
+    }
 
+    #num, button, #res {
+        width: 100%;            
+    }
 
-}
 #bu{
     display: flex;
     align-items: center;
@@ -82,5 +88,7 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    gap: 10px;
+    
 }
- 
+}}
