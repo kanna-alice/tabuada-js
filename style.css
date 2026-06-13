@@ -40,8 +40,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin: auto;
-    display: block;
-
+   
 }
 
 input{
@@ -76,9 +75,5 @@ label{
         margin-top: 10px;
     }
 }
-#bu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
  
