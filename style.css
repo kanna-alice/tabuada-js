@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://i.pinimg.com/736x/4a/4c/d1/4a4cd1da0775ece84e559fa887530d0e.jpg");
+    background-color: rgb(123, 0, 255);
     background-size: cover;
     font: normal 15pt Arial;
 }
@@ -46,7 +46,7 @@ button {
 
 input{
     border-radius: 10px;
-    width: 100%;
+    width: 300px;
     height: 30px;
     margin: 6px;
 }
